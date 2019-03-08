@@ -1,0 +1,77 @@
+
+.clearfix::after {
+	content: '';
+	display: block;
+	clear:both;
+}
+.logotipo-virsus{background-color: #f8f8f8;margin-top: -22px}
+.logotipo-virsus img{
+	width: 15rem;
+	float: left;
+	margin-right: 2rem;
+	margin-left: 3rem;
+	margin-top: 3rem}
+	.logotipo-virsus h1{margin-top: 6rem;float: left;
+	}
+	.logotipo-virsus ul{
+		list-style: none;
+		display: block;
+		float: left;
+	}
+	
+
+	h2{margin-left: 2rem}
+	p{margin-left: 3rem;font-size: 1rem}
+
+	h1{font-family: "Audiowide", cursive;}
+/*font-family: 'Audiowide', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Droid Sans Mono', monospace;
+font-family: 'Special Elite', cursive;
+font-family: 'Reenie Beanie', cursive;
+font-family: 'Fredericka the Great', cursive;*/
+/*p{font-family: 'Caveat', cursive; font-size: 1.5rem}*/
+h2{font-family: 'Fredericka the Great', cursive;font-weight: 600;margin-top: -0.9rem;margin-bottom: -1rem}
+h3{font-family: "Audiowide", cursive;}
+/*font-family: 'Finger Paint', cursive;
+font-family: 'Gabriela', serif;*/
+p{font-family: 'Donegal One', serif;font-size: 1rem;}
+p:first-letter{font-family: "Audiowide", cursive;
+font-variant: small-caps;
+font-size: 2rem;
+line-height:0.9rem;
+}
+.redtext {color: #C0392B}
+.centras{background-color: ;width: 50%;float:left;display: block;
+}
+a{text-decoration: none;color: black}
+.uzsiemimai{width: 17%;float: left;display: block;}
+.uzsiemimai ul{list-style-type: none;font-size: 2rem;font-family: 'Finger Paint', cursive;}
+.main{float: left;background-width: 100%;}
+.komentarai{width: 20%;float:left;display: block;}
+.komentarai img{width: 100%;margin-left: 0rem}
+.komentarai p{margin-left: 1rem}
+.komentarai a{background-color: #FEF9E7;}
+.reklama{width: 13%;float:left;display: block;}
+.reklama img{width: 100%}
+.komentarai p::before{content: "☺";margin-left: -1rem;}
+.apacia{background: #f5f5f5;width: 100%;float:left;display: block;color:#999;text-align: center;}
+figcaption{
+	text-align: right;
+	font-size: 0.8rem;
+	font-family: 'Special Elite', cursive;
+	font-variant: small-caps;
+
+}
+figcaption::before{
+	content:"- ";
+
+}
+q span{
+	display: block;
+	font-family: 'Droid Sans Mono', monospace;
+	font-style:italic;
+	font-size: 0.7rem;
+	text-align: right;
+}
+

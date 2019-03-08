@@ -1,0 +1,2 @@
+MarketBlog is Premium Blog wordpress theme which have many useful features to allow you build a personal,branding, marketing , seo blogs in a few minutes! MarketBlog was designed by our talents and passion, we take care any details to make it look perfect.
+MarketBlog also support retina display which will make your site look great in retina devices suck as iphone,ipad,macbook pro retina…ect. It also use our new framework so it will load very fast , easy to update functions and SEO friendly.

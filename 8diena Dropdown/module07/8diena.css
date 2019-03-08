@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+.clearfix:after {
+   visibility: hidden;
+   display: block;
+   font-size: 0;
+   content: " ";
+   clear: both;
+   height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+ul {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;	
+}
+
+li {
+	line-height: 1.4;
+}
+
+h3{
+	font-size: 20px;
+	line-height: 1.4;
+}
+
+/* Logo */
+.top h1{
+	display: inline-block;
+	color: #aaa;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+.top span{
+	display:block;
+}
+.top img{
+	display: inline-block;
+	vertical-align: middle;
+}
+/**/
+
+.container{
+	width: 900px;
+	margin: 0 auto;
+}
+
+.linija{
+	border-bottom: #2CBCD6 2px solid;
+}
+
+nav > ul > li{
+	display: inline-block;
+	margin-right: -6px;
+}
+
+nav > ul > li:hover>a{
+	background-color:#2CBCD6 ;
+	color: white;	
+}
+
+nav > ul > li:hover .pasirinkimas{
+	display: block;
+}
+
+nav >ul>li>a{
+	padding: 21px 30px;
+	color: #2CBCD6;
+	font-weight: bold;
+	display: block;
+}
+
+/* Second level */
+nav ul ul a{
+	color: white;
+}
+
+.pasirinkimas{
+	background-color: #2CBCD6;
+	width: 100%;
+	min-width: 900px;
+	position:absolute;
+	left:0;
+	display: none;
+}
+
+.pasirinkimas > .container > div{
+	width: 50%;
+	float:left;
+}
+
+.pasirinkimas h3{
+	color: #ddd;
+	margin: 15px 0px;
+}
+
+.pasirinkimas li{
+	margin: 10px 0px;
+	font-size: 10px;
+}

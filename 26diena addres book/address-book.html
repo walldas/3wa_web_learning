@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="css/address-book.css">
+
+    <!-- jQuery library-->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Utilities -->
+    <script src="js/utilities.js"></script>
+
+    <!-- Address book methods -->
+    <script src="js/address-book.js"></script>
+    <!-- Address book events -->
+    <script src="js/events.js"></script>
+</head>
+<body>
+    <section>
+        <h1><i class="fa fa-book"></i> Address book</h1>
+
+        <!-- Address book content (contact list) -->
+        <section id="address-book"></section>
+
+        <!-- Particular contact details-->
+        <aside id="contact-details" class="hide">
+            <h3></h3>
+            <p></p>
+            <a href="#">Edit</a>
+        </aside>
+
+        <nav>
+            <ul class="menu">
+                <li><button id="add-contact" title="Add a contact"><i class="fa fa-plus"></i></button></li>
+                <li><button id="clear-address-book" title="Clear"><i class="fa fa-trash-o"></i></button></li>
+            </ul>
+        </nav>
+    </section>
+
+    <!-- The new contact form is hidden on start -->
+    <form id="contact-form" class="hide standard-form" data-mode="add">
+        <hr>
+        <ul>
+            <li>
+                <label for="title">Title:</label>
+                <select id="title" name="title">
+                    <option value="1">Ms</option>
+                    <option value="2">Mrs</option>
+                    <option value="3">Mr</option>
+                </select>
+            </li>
+            <li>
+                <label for="firstName">First Name:</label>
+                <input id="firstName" type="text" name="firstName">
+            </li>
+            <li>
+                <label for="lastName">Last Name:</label>
+                <input id="lastName" type="text" name="lastName">
+            </li>
+            <li>
+                <label for="phone">Phone:</label>
+                <input id="phone" type="text" name="phone" maxlength="10">
+            </li>
+            <li>
+                <input type="button" id="save-contact" value="Save">
+            </li>
+        </ul>
+    </form>
+
+    <!-- Main code -->
+    <script src="js/main.js"></script>
+</body>
+</html>

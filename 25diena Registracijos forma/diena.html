@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="en"> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> 25diena</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css"/>
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap.css"/> -->
+	<!-- <link rel="stylesheet" type="text/css" href="reset.css"/> -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="diena.css"/>
+	
+
+
+</head>
+<body>
+	
+<h1>Registration form</h1>
+<div class="form"><form action="">
+<label><p>Username:
+<input type="text" name="Username" placeholder="Username"  pattern=".{3,}+[A-Z]" required title="3 characters minimum"></p></label>
+<label><p>Password:
+<input type="password" name="Password" placeholder="Password" pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$"></p></label>
+<label><p>Name:
+<input type="text" name="name" placeholder="name"></p></label>
+<label><p>Address:
+<input type="text" name="Address" placeholder="Address"></p></label>
+<label>
+<p>Country:
+ <select name="Cantry">
+  <option value="EN">EN</option>
+  <option value="LT">LT</option>
+  <option value="LV">LV</option>
+  <option value="EST">EST</option>
+</select></p></label>
+<label>
+<p>Zip code:<input type="number" name="zip" placeholder="zip"></p></label><label>
+<p>Email:<input type="email" name="email" placeholder="email"></p></label>
+<label>
+
+<label>Sex:
+<input type="radio" value="male" id="male" name="sex" required checked>:Male
+</label>
+<label>
+ <input type="radio" value="female" id="female" name="sex" required>:Female
+</label>
+<p><label>Language:
+ <input type="checkbox" value="eng" id="eng" name="eng" required>:English
+</label>
+<label>
+ <input type="checkbox" value="other" id="other" name="eng" required>:Other
+</label></p>
+<label><p>About:</p><p>
+<textarea rows="5" cols="40" name="textas" minlength="10" placeholder="komentarai"></textarea></p>
+<input type="submit" value="Submit"><input type="reset" value="Reset">
+<label><p>Username:
+<input type="text" name="Username" placeholder="Username"></p></label>
+</form></div>
+	<script src="diena.js"></script>
+</body>
+</html>

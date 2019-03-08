@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<!-- Here we call the CSS -->
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<title>Module 1 - Hello World</title>
+	</head>
+	<body>
+		<!-- HEADER : The heading of our site, will most of the time contain the nav and the logo -->
+		<header>
+			<!-- The most imporant title of our page, the text we want to put forward the most (it will most of the time be the websites's name) -->
+			<h1>Hello World ! Welcome to the 3WA !</h1>
+			<!-- The site's navigation -->
+			<nav>
+				<ul class="main-navigation2 clearfix">
+					<li><a href="#design">Web design</a></li>
+					<li><a href="#development">Development</a></li>
+					<li><a href="#training">The division of the modules</a></li>
+					<li><a href="#css">Let's play with CSS !</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!-- MAIN : The body of our site, will contain all the info that changes from one page to another -->
+		<main>
+			<h2>During this training we'll see 2 subjects :</h2>
+			<h3 id="design">Web design</h3>
+			<h4>HTML :</h4>
+			<!-- For the HTML and CSS logos, we'll use relatives paths -->
+			<img src="img/html.png" alt="HTML logo" />
+			<p>HTML is used to create the website content: it will only contain text.</p>
+			<h4>CSS :</h4>
+			<img src="img/css.jpg" alt="CSS logo" />
+			<p>CSS is used to add a graphical layer to the website : colors, shapes, background, etc.</p>
+			<h3 id="development">Development</h3>
+			<!-- For the JavaScript, PHP and MySQL logo, we'll use absolute paths -->
+			<h4>Javascript :</h4>
+			<img src="http://d107bcup7t2y2i.cloudfront.net/assets/landing/javascript-069ab02ce9e5a4875705a0dcd2dd08c2.png" alt="Le logo du JavaScript" />
+			<p>Javascript is a script programming language de script used to make a web page interactive, the page's behavior and appaerance will be able to vary on some settings.</p>
+			<h4>PHP :</h4>
+			<img src="http://seeklogo.com/images/E/ElePHPant_-_Mascot_PHP-logo-4C78D1AC4E-seeklogo.com.gif" alt="Le logo du PHP" />
+			<p>PHP is a programming language used to generate dynamic web pages, which are modified depending on some informations (hour, username etc).</p>
+			<h4>MySQL :</h4>
+			<img src="http://www.softaculous.com/website/images/ampps/mysql.png" alt="le logo de MySQL" />
+			<p>MySQL is a database management system, it's used to register informations given by the user, to be used again when needed (ex: log to a website usng an Id and a password).</p>
+			<hr />
+			<h2 id="training">400 hours of intensive training :</h2>
+			<p>The 3WA training program is divided in 57 modules.</p>
+			<ul>
+				<li>HTML, CSS, Responsive web design, Wordpress, Bootstrap : 16 modules</li>
+			    <li>Javascript : 12 modules</li>
+			    <li>PHP, MySQL, POO, MVC : 25 modules</li>
+			    <li>Symfony : 4 modules</li>
+			</ul>
+			<hr />
+			<div id="css">
+				<h2>Here, we're going to play with the CSS !</h2>
+				<div id="color">
+					<h3>Text color : <span>And myy font is Arial !</span></h3>
+					<p class="red">This paragraph is red.</p>
+					<p class="blue">This paragraphe is blue.</p>
+					<p class="green">This paragraphe is green.</p>
+				</div>
+				<div id="background">
+					<h3>Background color : <span>And my font is Comic Sans MS !</span></h3>
+					<p class="red">This paragraph is red.</p>
+					<p class="blue">This paragraphe is blue.</p>
+					<p class="green">This paragraphe is green.</p>
+				</div>
+			</div>
+		</main>
+		<!-- FOOTER : Will contain info such as copyright, a site's map, or any non-essential info about the website -->
+		<footer>
+			<nav>
+				<ul class="main-navigation3 clearfix">
+					<li><a href="#design">Web design</a></li>
+					<li><a href="#development">Development</a></li>
+					<li><a href="#training">The division of the modules</a></li>
+					<li><a href="#css">Let's play with CSS !</a></li>
+				</ul>
+			</nav>
+		</footer>
+	</body>
+</html>

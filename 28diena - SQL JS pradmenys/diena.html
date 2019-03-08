@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en"> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> 28diena</title>
+	<!-- <link rel="stylesheet" type="text/css" href="normalize.css"/> -->
+	<link rel="stylesheet" type="text/css" href="bootstrap.css"/>
+	<!-- <link rel="stylesheet" type="text/css" href="reset.css"/> -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="diena.css"/>
+	
+
+
+</head>
+<body>
+	
+<script type="text/javascript">
+	var data='[{"productCode":"S10_1678","productName":"1969 Harley Davidson Ultimate Chopper","productLine":"Motorcycles","productScale":"1:10","productVendor":"Min Lin Diecast","productDescription":"This replica features working kickstand, front suspension, gear-shift lever, footbrake lever, drive chain, wheels and steering. All parts are particularly delicate due to their precise scale and require special care and attention.","quantityInStock":"7933","buyPrice":"48.81","MSRP":"95.7"}, {"productCode":"S10_1949","productName":"1952 Alpine Renault 1300","productLine":"Classic Cars","productScale":"1:10","productVendor":"Classic Metal Creations","productDescription":"Turnable front wheels; steering function; detailed interior; detailed engine; opening hood; opening trunk; opening doors; and detailed chassis.","quantityInStock":"7305","buyPrice":"98.58","MSRP":"214.3"}, {"productCode":"S10_2016","productName":"1996 Moto Guzzi 1100i","productLine":"Motorcycles","productScale":"1:10","productVendor":"Highway 66 Mini Classics","productDescription":"Official Moto Guzzi logos and insignias, saddle bags located on side of motorcycle, detailed engine, working steering, working suspension, two leather seats, luggage rack, dual exhaust pipes, small saddle bag located on handle bars, two-tone paint with chrome accents, superior die-cast detail , rotating wheels , working kick stand, diecast metal with plastic parts and baked enamel finish.","quantityInStock":"6625","buyPrice":"68.99","MSRP":"118.94"}]'
+var products=JSON.parse(data)
+
+document.write("<ul>")
+for(i=0;products.length>i;i++){
+document.write("<li><b>"+products[i].productName+"</b></li>")
+document.write("<li>"+products[i].productCode+"</li>")
+document.write("<li>"+products[i].productLine+"</li>")
+document.write("<li>"+products[i].productScale+"</li>")
+document.write("<li>"+products[i].productVendor+"</li>")
+document.write("<li>"+products[i].productDescription+"</li>")
+document.write("<li>"+products[i].quantityInStock+"</li>")
+document.write("<li>"+products[i].buyPrice+"</li>")
+document.write("<li>"+products[i].MSRP+"</li><hr>")
+}
+document.write("</ul>")
+
+
+
+
+
+
+
+
+</script>
+
+	<script src="diena.js"></script>
+</body>
+</html>

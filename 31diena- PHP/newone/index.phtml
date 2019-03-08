@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="en"> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> 30diena</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css"/>
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap.css"/> -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans">
+	<!-- <link rel="stylesheet" type="text/css" href="reset.css"/> -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="css/address-book.css">
+	
+	  <!-- jQuery library-->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Utilities -->
+    
+
+    <!-- Address book methods -->
+    
+	<link rel="stylesheet" type="text/css" href="diena30.css"/>
+
+</head>
+<!-- <form method="GET">
+	Eiluciu skaicius:<input type="number" name="skaicius">
+<a href="#" id="btn"><i class="fa fa-check-circle-o" aria-hidden="true"></i></a>
+</form> -->
+
+<table>
+<?php print $limit." / ".$total ?>
+<p><a href="/newone?limit=<?=$limit?>&sort=1">Sort by Price UP</a></p>
+<p><a href="/newone?limit=<?=$limit?>&sort=2" >Sort by Price DOWN</a></p>
+<p><a href="/newone?limit=<?=$limit?>&sort=3" >Sort by productCode</a></p>
+<tr>
+	<th>productName</th>
+	<th>productCode</th>
+	<th>buyPrice</th>
+	<th>MSRP</th>
+	<th>INFO</th>
+</tr>
+<?php foreach ($products as $product): ;?>
+<tr>
+	<td><?php print $product["productName"];?></td>
+	<td><?php print $product["productCode"];?></td>
+	<td><?php print $product["buyPrice"];?></td>
+	<td><?php print $product["MSRP"];?></td>
+	<td> <a href="view.php?penktadienis=<?=$product['productCode']?>">ziureti</a>
+</tr>
+
+
+
+
+
+<?php endforeach ;?>
+</table>
+<p>1.3 išvesti kiek iš viso rasta įrašų “iš viso x produktų.”</p>
+<?php print $limit." / ".$total ?>
+
+
+</body>
+</html>

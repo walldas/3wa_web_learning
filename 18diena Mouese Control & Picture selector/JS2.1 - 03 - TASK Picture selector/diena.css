@@ -1,0 +1,18 @@
+ul{
+	list-style: none;
+}
+li{
+	display: inline-block;
+	margin:20px;
+}
+img{
+	border:5px solid white;
+	transition: 0.5s;
+}
+.border{
+	border: 5px solid #005500;
+}
+
+.puf{
+	display:none;
+}

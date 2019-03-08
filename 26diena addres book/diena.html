@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html lang="en"> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> 26diena</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css"/>
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap.css"/> -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans">
+	<!-- <link rel="stylesheet" type="text/css" href="reset.css"/> -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="css/address-book.css">
+	
+	  <!-- jQuery library-->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Utilities -->
+    
+
+    <!-- Address book methods -->
+    
+	<link rel="stylesheet" type="text/css" href="diena.css"/>
+
+</head>
+<body>
+	<h1><i class="fa fa-book"></i> Address book</h1><br><hr>
+
+        <!-- Address book content (contact list) -->
+        <section id="address-book"></section>
+
+        <!-- Particular contact details-->
+        <aside id="contact-details" class="hide">
+            <h3></h3>
+            <p></p>
+            <a href="#">Edit</a>
+        </aside>
+
+        <nav>
+            <ul class="menu">
+                <li><button id="add-contact" title="Add a contact"><i class="fa fa-plus"></i></button></li>
+                <li><button id="clear-address-book" title="Clear"><i class="fa fa-trash-o"></i></button></li>
+            </ul>
+        </nav>
+    </section>
+
+    <!-- The new contact form is hidden on start -->
+    <form id="contact-form" class="hide standard-form" data-mode="add">
+        <hr>
+        <ul>
+            <li>
+                <label for="title">Title:</label>
+                <select id="title" name="title">
+                    <option value="1">Ms</option>
+                    <option value="2">Mrs</option>
+                    <option value="3">Mr</option>
+                </select>
+            </li>
+            <li>
+                <label for="firstName">First Name:</label>
+                <input id="firstName" type="text" name="firstName" required >
+            </li>
+            <li>
+                <label for="lastName">Last Name:</label>
+                <input id="lastName" type="text" name="lastName" required>
+            </li>
+            <li>
+                <label for="phone">Phone:</label>
+                <input id="phone" type="number" name="phone" maxlength="10" required>
+            </li>
+            <li>
+                <input type="button" id="save-contact" value="Save">
+            </li>
+        </ul>
+    </form>
+
+    <!-- Main code -->
+	<script src="jQuery.js"></script>
+	<script src="jquery.validate.js"></script>
+	<script src="utilities.js"></script>
+	<script src="js/address-book.js"></script>
+    <!-- Address book events -->
+    <script src="js/events.js"></script>
+	<script src="diena.js"></script>
+</body>
+</html>

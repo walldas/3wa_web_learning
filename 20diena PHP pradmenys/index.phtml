@@ -1,0 +1,28 @@
+<?php include_once "header.phtml"; ?>
+<?php //include_once "table.phtml"; ?>
+<div class="todo">
+<?php include_once "forma.phtml"; ?>
+<?php
+// echo ($_POST["vardas"]);
+// echo ($_GET["pavarde"]." ");
+// echo ($_POST["pavarde"]);
+?>
+</div>
+<a href="clear.php">clearTasks</a>
+
+<div class="numb">
+<ol>
+
+<?php foreach ($all as $index=>$row): ?>
+  <?php if(count($row)>1): ?>
+        <li > <input type="checkbox" name="task[]">
+           <a href="/view.php? id=<?=$index?>" class="<?php echo $row[1]; ?>">
+          <?php echo $row[1]; ?>
+        <?php echo $row[0]; ?>
+  </a><a href="/clear.php? id=<?=$index?>"><i class="fa fa-trash" aria-hidden="true"></i>
+</a></li><?php endif; ?>
+<?php endforeach; ?>
+</ol>
+</div>
+
+<?php include_once "footer.phtml"; ?>

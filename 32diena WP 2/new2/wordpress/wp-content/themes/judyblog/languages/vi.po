@@ -1,0 +1,318 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bluexus\n"
+"POT-Creation-Date: 2014-07-23 16:32+0700\n"
+"PO-Revision-Date: 2014-07-23 16:33+0700\n"
+"Last-Translator: \n"
+"Language-Team: wopethemes\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:31
+msgid "Page Not Found"
+msgstr "Trang này không tìm thấy"
+
+#: ../404.php:34
+msgid "404"
+msgstr "404"
+
+#: ../404.php:36
+msgid ""
+"The page you are looking for might have been removed, had its name changed, "
+"or is temporarily unavailable. Please try another search ... "
+msgstr ""
+"Trang bạn tìm kiếm có thể bị xóa , hoặc đổi tên , hoặc tạm thời không truy "
+"cập được. Xin vui lòng tìm kiếm khác ..."
+
+#: ../archive.php:14
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Lưu trữ hàng ngày : %s"
+
+#: ../archive.php:16
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Hàng tháng : %s"
+
+#: ../archive.php:18
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Lưu trữ hàng năm: %s"
+
+#: ../archive.php:20
+msgid "Blog Archives"
+msgstr "Lưu trữ bài viết"
+
+#: ../author.php:14
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Tác giả : %s"
+
+#: ../author.php:33 ../single.php:140
+msgid "Visit Website "
+msgstr "Website"
+
+#: ../category.php:12
+msgid "Category : "
+msgstr "Thể loại :"
+
+#: ../comments.php:10
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr "Bài viết này được bảo vệ bởi mật khẩu. Nhập mật khẩu để xem bình luận."
+
+#: ../comments.php:17 ../lib/widgets.php:180 ../lib/widgets.php:258
+msgid "No Comment"
+msgstr "Không có bình luận"
+
+#: ../comments.php:17 ../lib/widgets.php:180 ../lib/widgets.php:258
+msgid "1 Comment"
+msgstr "Một bình luận"
+
+#: ../comments.php:17 ../lib/widgets.php:180 ../lib/widgets.php:258
+msgid "% Comments"
+msgstr "% bình luận"
+
+#: ../comments.php:22
+msgid "Older Comments <span class=\"meta-nav\"> &rarr;</span>"
+msgstr "Bình Luận cũ hơn <span class=\"meta-nav\"> &rarr;</span>"
+
+#: ../comments.php:23
+msgid "<span class=\"meta-nav\">&larr;</span> Newer Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span> Comment mới hơn"
+
+#: ../comments.php:63
+msgid "Your Name*"
+msgstr "Tên*"
+
+#: ../comments.php:67
+msgid "Your E-Mail*"
+msgstr "E-mail*"
+
+#: ../comments.php:71
+msgid "Your Webpage"
+msgstr "Trang web của bạn"
+
+#: ../comments.php:78
+msgid "Leave Your Comment"
+msgstr "Nhập bình luận"
+
+#: ../comments.php:79
+msgid "Submit Your Comment"
+msgstr "Gửi Bình Luận"
+
+#: ../comments.php:81
+msgid "Your Comment*"
+msgstr "Nội dung"
+
+#: ../comments.php:106
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s lúc %2$s"
+
+#: ../comments.php:110
+#, fuzzy
+msgid "<i class=\"fa fa-mail-forward\"></i> Reply"
+msgstr "<i class=\"fa fa-mail-forward\"></i> Trả Lời"
+
+#: ../comments.php:115
+msgid "Your comment is awaiting moderation."
+msgstr "Bình luận của bạn đang chờ xét duyệt."
+
+#: ../content-search.php:32 ../content.php:90
+msgid "Read More"
+msgstr "Đọc thêm"
+
+#: ../content.php:64 ../single.php:76
+msgid "0"
+msgstr "0"
+
+#: ../content.php:64 ../single.php:76
+msgid "1"
+msgstr "1"
+
+#: ../content.php:64 ../single.php:76
+msgid "%"
+msgstr "%"
+
+#: ../header.php:53 ../header.php:73
+msgid "Home"
+msgstr "Trang chủ"
+
+#: ../search.php:18 ../search.php:39 ../search.php:46
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Kết quả tìm kiếm cho: %s"
+
+#: ../search.php:41
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Có vẻ như chúng tôi không tìm thấy cái bạn tìm kiếm.  Nhập tìm kiếm có thể "
+"giúp đỡ."
+
+#: ../searchform.php:9
+msgid "Key Words"
+msgstr "Nhập từ khóa"
+
+#: ../searchform.php:10
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: ../single.php:101
+msgid "Pages:"
+msgstr "Trang %s"
+
+#: ../single.php:171
+msgid "Related Posts "
+msgstr "Bài viết Liên quan"
+
+#: ../tag.php:14
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Lưu trữ Tag: %s"
+
+#: ../lib/common_functions.php:278
+msgid ""
+"It seem can not write files to update color&amp;fonts to your server, please "
+"contact hosting provide to fix it!"
+msgstr ""
+"Không thể ghi đè lên file, vui lòng liên hê với nhà cung cấp hosting về vấn "
+"đề này!"
+
+#: ../lib/widgets.php:152
+msgid "Comments"
+msgstr "bình luận"
+
+#: ../lib/widgets.php:153
+msgid "Likes"
+msgstr "Thích"
+
+#: ../lib/widgets.php:154
+msgid "Random"
+msgstr "Ngẫu nhiên"
+
+#: ../lib/widgets.php:222
+#, php-format
+msgid "1 Like"
+msgid_plural "%s Likes"
+msgstr[0] "1 Thích"
+msgstr[1] "%s Thích"
+
+#~ msgid "Reply"
+#~ msgstr "Trả lời"
+
+#~ msgid "0 Like"
+#~ msgstr "Chưa Thích"
+
+#~ msgid "Written by "
+#~ msgstr "Viết bởi"
+
+#~ msgid "There are no post to display."
+#~ msgstr "Không có bài viết nào cả."
+
+#~ msgid "View All"
+#~ msgstr "Tất cả"
+
+#~ msgid "Next Project"
+#~ msgstr "Tiếp theo"
+
+#~ msgid "Previous Project"
+#~ msgstr "Trước đó"
+
+#~ msgid "About The Author"
+#~ msgstr "Về Tác giả "
+
+#~ msgid "SUBMIT YOUR COMMENT"
+#~ msgstr "GỬI BÌNH LUẬN CỦA BẠN"
+
+#~ msgid "Posted by"
+#~ msgstr "Gửi bởi"
+
+#~ msgid "in"
+#~ msgstr "trong"
+
+#~ msgid "The Name and Email are required!"
+#~ msgstr "Tên và Email cần được nhập"
+
+#~ msgid "Ooops page not found..."
+#~ msgstr "Ooops trang không tìm thấy"
+
+#, fuzzy
+#~ msgid "<span>Leave Your Comment</span>"
+#~ msgstr "Gửi lời bình của bạn"
+
+#~ msgid "Home Page"
+#~ msgstr "Trang chủ"
+
+#~ msgid "Thanks for contact us , we will reply you asap!"
+#~ msgstr "Cám ơn đã liên hệ , chúng tôi sẽ liên hệ bạn sớm!"
+
+#~ msgid "Your Name* "
+#~ msgstr "Tên*"
+
+#~ msgid "Your E-Mail* "
+#~ msgstr "E-mail*"
+
+#~ msgid "Your Web Page* "
+#~ msgstr "Website*"
+
+#~ msgid "Write Your Message* "
+#~ msgstr "Viết lời nhắn của bạn"
+
+#~ msgid "SUBMIT YOUR MESSAGE"
+#~ msgstr "GỬI LỜI NHẮN CỦA BẠN"
+
+#~ msgid "Category"
+#~ msgstr "Thể loại :"
+
+#~ msgid "Date : "
+#~ msgstr "Ngày :"
+
+#~ msgid "Main Menu"
+#~ msgstr "Menu chính"
+
+#, fuzzy
+#~ msgid "No Comments"
+#~ msgstr "Không có bình luận"
+
+#, fuzzy
+#~ msgid " Comments"
+#~ msgstr "% bình luận"
+
+#~ msgid "Comments are off for this post."
+#~ msgstr "Bình luận đã được tắt."
+
+#~ msgid "See More"
+#~ msgstr "Xem thêm"
+
+#~ msgid "Read more..."
+#~ msgstr "Đọc thêm..."
+
+#~ msgid "See more "
+#~ msgstr "Xem thêm"
+
+#~ msgid "WHAT CLIENTS ARE SAYING"
+#~ msgstr "KHÁCH HÀNG ĐANG NÓI GÌ"
+
+#, fuzzy
+#~ msgid "% Comment"
+#~ msgstr "% bình luận"
+
+#~ msgid "Name"
+#~ msgstr "Họ Tên"
+
+#~ msgid "Leave a Reply"
+#~ msgstr "Gửi bình luận"
+
+#~ msgid "Follow us on Twitter"
+#~ msgstr "Follow chúng tôi"

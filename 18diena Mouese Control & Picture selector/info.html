@@ -1,0 +1,42 @@
+	<a href="#" class="btn" id="mygtukas">Pirmas</a>
+	<a href="#" class="btn">Antras</a>
+	<a href="#" class="btn">Trečias</a>
+	
+	<script>
+
+	// Vieno elemento parinkimas pagal jo ID
+	var mygtukas = document.getElementById('mygtukas');
+
+	mygtukas.addEventListener('mouseover', function() {
+		alert('užvesta');		
+	})
+	
+	
+	// Elementų su tokia pačia klase 'btn' surinkimas
+	var mygtukai = document.getElementsByClassName('btn');
+
+	for(var i = 0; i < mygtukai.length; i++) {
+
+		// Ivykdom, kai paspaudžia ant elemento
+		mygtukai[i].addEventListener('click', function(event) {
+
+			var mygtukas_ant_kurio_paspausta = event.target;
+
+			var tekstas = mygtukas_ant_kurio_paspausta.innerHTML;
+
+			alert(tekstas);
+
+		})
+
+		// Įvykdom, kai pelė užvedama ant elemento
+		mygtukai[i].addEventListener('mouseover', function(event) {
+
+			var mygtukas_ant_kurio_uzvesta_pele = event.target;
+
+			
+			mygtukas_ant_kurio_uzvesta_pele.style.color = 'red';
+
+			
+
+		})
+

@@ -1,0 +1,21 @@
+h1{
+	color: green;
+	text-align: center;
+}
+
+.big{
+	font-size: 100px;
+	width: 200px;
+	height: 200px;
+	border:solid 2px black;
+	margin-bottom: 4px;
+
+}
+
+.bi{
+	text-align: center;
+
+}
+td{
+	cursor: pointer;
+}

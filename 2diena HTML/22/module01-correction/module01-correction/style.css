@@ -1,0 +1,103 @@
+ul.main-navigation2 {
+	list-style: none;
+	list-style-position: inside;
+	margin:0px;
+	padding: 0px;
+	/*background: #ff0000;*/
+}
+ul.main-navigation2 li {
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+ul.main-navigation2 li:first-child {
+	margin-left: 0px;	
+}
+
+ul.main-navigation2 li:last-child {
+	margin-right: 0px;
+}
+
+ul.main-navigation2 a {
+	/*padding: 10px;*/
+	/*background: #000;*/
+	padding: 7px;
+	display: block;
+}
+
+/* Main navigation 3 */
+ul.main-navigation3 {
+	list-style: none;
+	list-style-position: inside;
+	margin:0px;
+	padding: 0px;
+	/*background: #ff0000;*/
+}
+ul.main-navigation3 li {
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+ul.main-navigation3 li:first-child {
+	margin-left: 0px;	
+}
+
+ul.main-navigation3 li:last-child {
+	margin-right: 0px;
+}
+
+ul.main-navigation3 a {
+	display: block;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+span {
+    color: #444;
+}
+
+#color p {
+    font-family: Arial, sans-serif;
+}
+
+#color .red {
+    color: red;
+}
+
+#color .blue {
+    color: blue;
+}
+
+#color .green {
+    color: green;
+}
+
+#background p {
+    font-family: "Comic Sans MS", cursive;
+}
+
+#background .red {
+    background-color: red;
+}
+
+#background .blue {
+    background-color: blue;
+}
+
+#background .green {
+    background-color: green;
+}

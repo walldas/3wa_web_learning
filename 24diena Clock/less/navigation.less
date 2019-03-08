@@ -1,0 +1,35 @@
+.funkcijos-pav(@size){
+	border-radius: @size;
+	-moz-border-radius:@size;
+}
+
+
+
+
+
+
+ul{
+	background-color: @bg-red;
+	.funkcijos-pav(@border-size);
+	li{
+		&:after{
+			span{
+				//fsdf
+			}
+		}
+		list-style: none;
+		&.active{
+			font-weight: bold;
+			.funkcijos-pav(5px);
+			>a{
+				color:@bg-red;
+			}
+		}
+		> a{
+			color:cyan;
+			span{
+				color:green;
+			}
+		}
+	}
+}

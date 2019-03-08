@@ -1,0 +1,133 @@
+@font-face{
+	/*srifto pavadinimas*/
+	font-family: "KatinoSriftas";
+	src:url(module-2/fonts/SpecialElite.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+h1{font-family: "KatinoSriftas";}
+
+
+@font-face{
+	/*srifto pavadinimas*/
+	font-family: "Cado";
+	src:url(module-2/fonts/cardo/cardo-regular.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+p{font-family: "Cado";}
+
+@font-face{
+	/*srifto pavadinimas*/
+	font-family: "Cado";
+	src:url(module-2/fonts/cardo/cardo-italic.woff) format("woff");
+	font-weight: 400;
+	font-style: italic;
+}
+
+
+.pasvires{
+	font-style:italic;
+}
+
+body {
+	background-size: 100% 1.5em;
+background-image: -webkit-linear-gradient(#eee .05em, transparent 1px);
+background-image: -moz-linear-gradient(#eee .05em, transparent 1px);
+background-image: linear-gradient(#eee .05em, transparent 1px);
+}
+
+@font-face{
+	/*srifto pavadinimas*/
+	font-family: "Cado";
+	src:url(module-2/fonts/cardo/cardo-bolt.woff) format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+.storas{
+	font-weight: 700
+}
+/*body{font-family:"KatinoSriftas";}*/
+
+p.fainas:first-letter{font-size: 2.7rem;
+margin-top: 0.4rem;
+margin-right: 0.3rem;
+font-family: "KatinoSriftas";
+
+float:left;
+line-height: 1
+}
+p{font-size: 1rem}
+p{line-height: 1.4rem;
+text-align: justify;}
+/*justify padarys taip kad teksta liguotu is abieju pusiu*/
+
+
+h1{font-size: 4rem}
+h2{font-size: 2.5rem;font-family: "KatinoSriftas";}
+h3{font-size: 1.5rem;font-family: "KatinoSriftas";}
+
+.container{width: 50%;
+	min-width: 400px;
+margin-right: auto;
+margin-left: auto;}
+figcaption{
+	text-align: right;
+	font-size: 0.7rem;
+	font-family: "Cado";
+	font-variant: small-caps;
+
+}
+figcaption::before{
+	content:"- ";
+
+}
+
+q span{
+	display: block;
+	font-family: "Cado";
+	font-style:italic;
+}
+q{quotes: "“\0000a0" "\0000a0”";}
+
+/*zemiau parodito sh nereikia_______________________________________________*/
+q:before {
+    font-weight: bold;
+    color: #CCC;
+}
+
+q:after {
+	font-weight: bold;
+    color: #CCC;
+}
+q:before {
+    content: open-quote;
+}
+
+q:lang(en):before {
+    font-size: 2em;
+    /* Overflows, the quote doesn't fill the space because we didn't specify left, top, right or bottom */
+    position: absolute;
+    /* So we move it to the left */
+    margin-left: -.6em;
+    margin-top: -.5em;
+}
+q:arfter{content: ''}
+
+/*body{margin-left: 25rem;margin-right: 25rem}*/
+/*iki cia s nereikia ___________________________________________________*/
+figure{
+	margin-left: 0;
+	margin-right: 0
+}
+h3::before{
+	content: "☙";
+	/*content:"\267B ;    toks alternatyvus kodas */
+	font-size: 3.6rem;
+}
+
+a{text-decoration: none;
+border-bottom: 1px dashed red;
+color: black}

@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+}
+.clearfix:after {
+   visibility: hidden;
+   display: block;
+   font-size: 0;
+   content: " ";
+   clear: both;
+   height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block;
+}
+/* close commented backslash hack */
+
+html{
+	font-size: 14px;
+}
+body{
+	font-size: 1rem;
+}
+h1{
+	font-size: 3rem;
+}
+h2{
+	font-size: 2rem;
+}
+header{
+	vertical-align: top;
+	text-align: center;
+	padding: 0;
+	margin:0;
+}
+.container{
+	max-width: 1500px;
+	margin-right: auto;
+	margin-left: auto;
+}
+header img{
+	display: inline-block;
+}
+header a{
+	text-decoration: none;
+	color: #49C3B4;
+	font-family: 'Courgette', cursive;
+	margin-right: 20px;
+
+}
+header ul{
+	list-style: none;
+	display: inline-block;
+	vertical-align: top;
+	padding: 0;
+	text-align: center;
+}
+header li{
+	display: inline-block;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.fa{
+	display:block;
+}
+table{
+	border-collapse: collapse;
+	width: 90%;
+	margin:0 auto;
+	margin-top:10px;
+}
+table,th,tr,td{
+	
+	border:solid #ccc 1px;
+	padding:5px;
+}
+th{
+	background-color: #49C3B4;
+	text-align: left;
+	color: white;
+	font-family: 'Courgette', cursive;
+}
+main h1{
+	color: #555;
+	font-family: 'Courgette', cursive;
+	text-align: center;
+}
+td,th{
+	padding-left: 10px;
+}
+tr {
+	text-align: center;
+}
+table a{
+	text-decoration: none;
+	color: #999;
+}
+
+/*spalvina lygines eilutes*/
+tbody tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(odd){
+	background-color: #fafafa;
+}
+tbody tr:first-child{
+	background-color: white;
+}
+tr td:first-child{
+	text-align: left;
+}
+h2{
+	color: #555;
+	font-family: 'Courgette', cursive;
+	text-align: center;
+}
+
+table tr:hover{
+	background-color: #8DF7F8;
+}
+.vardas{
+	width: 45%;
+	border-bottom: solid #eee;
+	float: left;
+
+}
+.pavarde{
+	width: 45%;
+	border-bottom: solid #eee;
+	float: right;
+}
+.email{
+	width: 100%;
+	border-bottom: solid #eee;
+
+}
+section{width: 90%}
+section input{
+	border:none;
+	font-family: 'Open Sans', cursive;
+	color: #49C3B4;
+}
+section div{}
+.klausimai{
+	text-align: center;
+	font-family: 'Open Sans', cursive;
+	color: #555;
+}
+.klausimai input{
+	display: inline-block;
+	margin-left: 20px;
+}
+section h3{
+	color: #555;
+	font-family: 'Courgette', cursive;
+}
+.anksciau{
+	text-align: center;
+	font-family: 'Open Sans', cursive;
+	color: #555;
+}
+section{
+	text-align: center;
+	font-family: 'Open Sans', cursive;
+	color: #555;
+}
+select{
+	width: 100%;
+}
+.kiek{
+	text-align: center;
+	border:none;
+	background-color: white;
+	border-bottom: solid #49C3B4 2px;
+}
+.rastas{
+	text-align: left;
+}
+.migtukas {
+	margin-top: 20px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+.migtukas a{
+	padding: 10px 30px;
+	background-color: #49C3B4;
+	color: white;
+	text-decoration: none;
+
+}
+footer{
+	background-color: #49C3B4;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: white;
+}
+
+/*
+
+#idvardas .klase{
+ per tarpa atskirta klase
+}
+
+.lentele td{
+	spalvina visus stulpelius
+}
+.lentele td + td {
+	nuspalvins visus nuo antros eilutes
+}
+.lentele td + td+td {
+	nuspalvina visus nuo trecios
+}
+*/

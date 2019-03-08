@@ -1,0 +1,137 @@
+<!--
+Užduotis - TicTacToe žaidimas 1vs1 naudojant OOP JS
+Sukurti TicTacToe klasę, kuri turėtų šias funkcijas:
+- Padėti X
+- Padėti O
+- Patikrinti, ar dar galima tęsti žaidimą, ar yra laimėtojas / lygiosios
+
+Galutinis užduoties rezultatas - veikiantis žaidimas
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic Tac Toe</title>
+
+  <style type="text/css">
+    td {
+      width: 150px;
+      height: 150px;
+      border: 2px solid red;
+      text-align: center;
+      font-size: 100px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <table id="tic-tac-toe">
+    <tr>
+      <td data-position-x="0" data-position-y="0"></td>
+      <td data-position-x="1" data-position-y="0"></td>
+      <td data-position-x="2" data-position-y="0"></td>
+    </tr>
+
+    <tr>
+      <td data-position-x="0" data-position-y="1"></td>
+      <td data-position-x="1" data-position-y="1"></td>
+      <td data-position-x="2" data-position-y="1"></td>
+    </tr>
+
+    <tr>
+      <td data-position-x="0" data-position-y="2"></td>
+      <td data-position-x="1" data-position-y="2"></td>
+      <td data-position-x="2" data-position-y="2"></td>
+    </tr>
+  </table>
+  <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    var TicTacToe = function() {
+      this.counter = 0;
+      this.context = $('#tic-tac-toe');
+
+      $(this.context).find('td').on('click', this.cellClicked.bind(this));
+    };
+
+    TicTacToe.prototype.putX = function(x, y) {
+      var cell = $(this.context).find('[data-position-x="' + x + '"][data-position-y="' + y + '"]');
+      if(cell.html().length === 0) {
+        cell.html('X');
+        this.counter++;
+
+        var this2 = this;
+        setTimeout(function() {
+          this2.checkWinner();
+        }, 250);
+      }
+    };
+
+    TicTacToe.prototype.putO = function(x, y) {
+      var cell = $(this.context).find('[data-position-x="' + x + '"][data-position-y="' + y + '"]');
+      if(cell.html().length === 0) {
+        cell.html('O');
+        this.counter++;
+
+        var this2 = this;
+        setTimeout(function() {
+          this2.checkWinner();
+        }, 250);
+      }
+    };
+
+    TicTacToe.prototype.checkWinner = function() {
+      var cells = $(this.context).find('td');
+
+      if(
+        this.checkLine(cells[0], cells[1], cells[2]) ||
+        this.checkLine(cells[3], cells[4], cells[5]) ||
+        this.checkLine(cells[6], cells[7], cells[8]) ||
+        this.checkLine(cells[0], cells[3], cells[6]) ||
+        this.checkLine(cells[1], cells[4], cells[7]) ||
+        this.checkLine(cells[2], cells[5], cells[8]) ||
+        this.checkLine(cells[0], cells[4], cells[8]) ||
+        this.checkLine(cells[2], cells[4], cells[6])
+        ) {
+        if(this.counter % 2 == 0) {
+          alert("Laimejo O");
+        } else {
+          alert("Laimejo X");
+        }
+
+        this.counter = 0;
+        $(cells).html('');
+
+      } else if(this.counter == 9) {
+        alert("Lygiosios");
+
+        this.counter = 0;
+        $(cells).html('');
+      }
+    };
+
+    TicTacToe.prototype.checkLine = function(c1, c2, c3) {
+      if(
+        c1.innerHTML != '' &&
+        c1.innerHTML == c2.innerHTML &&
+        c2.innerHTML == c3.innerHTML
+        ) {
+        return true;
+    } else {
+      return false;
+    }
+  };
+
+  TicTacToe.prototype.cellClicked = function(event) {
+    var x = event.target.dataset.positionX;
+    var y = event.target.dataset.positionY;
+
+    if(this.counter % 2 == 0) {
+      this.putX(x, y);
+    } else {
+      this.putO(x, y);
+    }
+  };
+
+  var ticTacToe = new TicTacToe();
+</script>
+</body>
+</html>

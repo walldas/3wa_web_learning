@@ -1,0 +1,47 @@
+body {
+
+}
+/*ul{ background: red }*/
+ul{}
+
+li{}
+
+h3{float:left;}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear:both;
+}
+.navigacija { 
+	list-style: none;
+	display:block;
+	float:left;
+	width: 100%;
+}
+
+.navigacija li {
+	float:left;
+	margin-right: 20px;
+}
+
+
+.red{
+	color:red;
+}
+.blue{color: blue;}
+.green{color:green;}
+
+
+.header{
+	background-color: #000000;
+	font-size:50px; 
+}
+.footer{
+	background-color: red;
+}
+
+.balta{color:white;}
+.fonasred{background-color: red}
+.fonasblue{background-color: blue}
+.fonasgreen{background-color: green}

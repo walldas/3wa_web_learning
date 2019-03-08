@@ -1,0 +1,62 @@
+body{
+  background-image: url("sonas.png");
+}
+.todo{
+  text-align: center;
+}
+.numb{
+  margin-left: 10%;
+}
+li{
+    /*font-family: 'Courgette', cursive;*/
+    font-family: 'Gloria Hallelujah', cursive;
+}
+input{
+  border-radius: 50px;
+  height: 30px;
+  margin-left: 40px;
+}
+.low{
+  color:#888;
+}
+.normal{
+  color:blue;
+}
+.high{
+  color:red;
+}
+a{
+padding: 5px;
+  text-decoration: none;
+  transition: 1s;
+}
+a:hover{
+padding: 5px;
+  background-color: gold;
+  border-radius: 20px;
+}
+ol li{
+  border-bottom: solid #aaa 1px;
+}
+.lapukas{
+  background-color: gold;
+  width: 300px;
+  padding: 30px;
+  font-family: 'Gloria Hallelujah', cursive;
+  margin: 0 auto;
+  box-shadow: 10px 10px 10px ;
+
+}
+.lapukas span{
+
+  font-size: 20px;
+  font-weight: bold;
+}
+.lapukovirsus{
+  background-color:   #f1c40f ;
+  width: 360px;
+  height: 50px;
+  margin: 0 auto;
+  box-shadow: 10px 20px 10px;
+
+}

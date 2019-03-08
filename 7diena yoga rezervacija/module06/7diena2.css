@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+.clearfix:after {
+   visibility: hidden;
+   display: block;
+   font-size: 0;
+   content: " ";
+   clear: both;
+   height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block;
+}
+/* close commented backslash hack */
+
+body{
+	background-color: #eee
+}
+header{
+	background-color: #673AB7;
+	display: block;
+	padding-bottom:  100px;
+}
+.upleft{
+	width: 75%;
+	display: inline-block;
+	float: left;
+	padding-left: 30px;
+	
+
+}
+.upright{
+	width: 25%;
+	display: inline-block;
+	text-align: right;
+	padding:30px;
+}	
+header i {
+	margin-right: 10px;
+	color: #fff
+}
+a{
+	text-decoration: none;
+}
+main a{
+	margin-right: 20px;
+}
+header a{
+	border-radius: 10%;
+	background-color: #fff;
+	padding: 5px 10px;
+	color:#888;
+}
+main{
+	width: 60%;
+	margin:0 auto;
+	background-color: white;
+	margin-top: -50px;
+}
+main input{
+	border:none;
+	width: 100%;
+}
+.uppage{
+	margin: 0 auto;
+	color:#888;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: solid #ddd 1px;
+}
+.downpage{
+	width: 90%;
+	margin: 0 auto;
+}
+.name{
+	border-bottom: solid 1px #ddd
+}
+.biger{
+	font-size: 50px;
+	color: #000;
+}

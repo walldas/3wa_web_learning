@@ -1,0 +1,154 @@
+
+body{
+    background-image:url('img/fond.png');
+}
+h1{ 
+    font-family: 'Slabo 13px', serif;
+    font-size: 2em;
+    color:#555;
+}
+h2{
+    font-size: 50px;
+    font-family: 'Slabo 13px', serif;
+    color:#1b9ca2;
+}
+
+h3{
+    font-size: 20px;
+    font-family: 'Slabo 13px', serif;
+    color:#555;
+}
+
+main h2,h3{
+    text-align: center;
+    padding: 20px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    color:#555;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+/* Safari 3-4, iOS 1-3.2, Android 1.6- */
+/*-webkit-border-radius: 12px; */
+/* Firefox 1-3.6 */
+/*-moz-border-radius: 12px; */
+/* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+/*border-radius: 12px;*/
+/*body{background-color: red;}*/
+
+.container{ 
+    max-width: 1100px;
+    min-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+header{
+    text-align: center;
+    background-color: #25b3b4;
+    margin-top: 50px;
+    border-bottom: solid 3px #1b9ca2;
+    border-top: solid 3px #1b9ca2;
+}
+
+a{
+    color:#fff;
+    text-decoration: none;
+}
+nav li{
+    display:inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    list-style: none;
+    color: #fff
+}
+
+.upmain{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%; 
+}
+
+main{
+    width: 69%;
+    display: block;
+    float:left;
+    background-color: #b6dfdd;
+}
+
+aside{
+    width: 30%;
+    display: block;
+    float:right;
+    background-color:  #25b3b4;
+    border: solid 3px #1b9ca2;
+    padding-left: 0;
+    color: #eee;
+}
+
+article{
+    width: 50%;
+    display: block;
+    float:left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+aside h3{
+    color: #bbb;
+    text-align: left;
+}
+aside h3 span{
+    color: #eee;
+}
+aside span{ 
+    color: #bbb;
+    display: block;
+}
+aside i{
+    color:#fff;
+}
+aside li{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+i{
+    color: #1b9ca2;
+}
+main img{
+    float: left;
+    margin-left: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+aside img{
+    float: right;
+    margin-right: -50px;
+    margin-top: -50px;
+}
+section a{
+    display: block;
+    float: right;
+    background-color: #25b3b4;
+    padding: 20px 10px;
+    color: #eee;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+section i{
+    color:#eee;
+}
+footer{
+    float:left;
+    display: block;
+    width: 100%;
+    text-align: center;
+}

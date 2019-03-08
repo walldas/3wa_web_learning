@@ -1,0 +1,70 @@
+// body{
+// 	background-repeat: no-repeat;
+// 	background-size: 100%;
+// }
+
+ul{
+	list-style: none;
+}
+li{
+	display: inline-block;
+}
+button{
+	border: solid 1px white;
+	background: none;
+	border-radius: 30px;
+	color:white;
+	padding: 10px;
+	margin: 10px;
+	// transition:background-color .5s;
+}
+button:hover{
+	background-color: rgba(255, 255, 255, 0.2)
+
+}
+
+body{
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	text-align: auto;
+}
+
+#clock{
+	background: url("clock.jpg") no-repeat top left;
+	padding: 300px 0 430px 840px;
+}
+.hand{
+	background: url("hands.png") no-repeat top left;
+	position: absolute;
+	height: 265px;
+	rotation:25;
+	width: 30px;
+	text-align: center;
+	color: white;
+
+}
+
+.hand.minutes{
+	background-position: -60px 0;
+	// transform:rotate(60deg);
+	transition:0.5s;
+}
+
+
+.hand.hundredth{
+	background-position: 0;
+	// transform:rotate(90deg);
+	// transition:0.5s;
+}
+.hand.seconds{
+	background-position: -28px 0;
+	// transform:rotate(120deg);
+	transition:0.5s;
+}
+nav{
+	margin: 30px 0
+}
+.tran{
+	transition:0.5s;
+}

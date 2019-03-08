@@ -1,0 +1,4 @@
+php -S localhost:8001 -f index.php
+
+
+su sia komanda galima nusirodyti kad terminalas rodytu klaidas kurias darai

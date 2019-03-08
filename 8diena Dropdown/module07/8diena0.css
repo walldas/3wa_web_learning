@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+.clearfix:after {
+   visibility: hidden;
+   display: block;
+   font-size: 0;
+   content: " ";
+   clear: both;
+   height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block;
+}
+/* close commented backslash hack */
+
+body{
+	background-color: #31353E;
+}
+
+main{
+	width: 70%;
+	margin: 0 auto;
+}
+a{
+	padding: 10px;
+	background-color: #95BA4C;
+	border-radius: 20px;
+	text-decoration: none;
+}
+.column{
+	width: 30%;
+	display: block;
+	float: left;
+	text-align: center;
+	padding: 20px;
+	/*margin: 20px 0;*/
+	/*vertical-align: middle;*/
+	outline:solid #888 3px;
+	margin-top: 200px;
+	z-index: -1;
+	margin: 100px;
+	
+
+}
+.choise1{
+	margin-left: -3px;
+	position: absolute;
+	width: 20%;
+	left:19.7%;
+	height: 70%;
+ 
+}
+.choise2{
+	margin-left: -3px;
+	position: absolute;
+	width: 20%;
+	left:40%;
+	height: 70%;
+ 
+}
+.choise3{
+	margin-left: -3px;
+	position: absolute;
+	width: 20%;
+	left:60.3%;
+	height: 70%;
+}
+.choise1:hover{
+	outline: solid #f00 6px;
+	z-index: 2;
+}	
+.choise2:hover{
+	outline: solid #f00 6px;
+	z-index: 2;
+	
+}
+
+.choise3:hover{
+	outline: solid #f00 6px;
+	z-index: 2;
+	position: absolute;
+}
+

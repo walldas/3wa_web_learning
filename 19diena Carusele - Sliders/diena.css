@@ -1,0 +1,43 @@
+body{
+	background-image: url("carusel/images/sonas.png");
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.migtukai{
+	text-align: center;
+	margin: 20px;
+}
+.migtukai i{
+	border: 1px solid #888;
+	padding: 5px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 20px 20px 10px #888888;
+
+
+}
+a{
+	text-decoration: none;
+	margin-right: 20px;
+}
+img{
+	border: solid 10px white;
+	margin: 0 auto;
+	padding-bottom: 100px;
+	margin-bottom: 100px;
+	background-color: white;
+	border-radius: 5px;
+	transform: rotate(-3deg);
+	box-shadow: 20px 20px 30px #888888;
+	
+
+}
+.hide{
+	display: none;
+}
+.slider{
+	margin: auto auto;
+}
+

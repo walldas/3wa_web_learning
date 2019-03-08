@@ -1,0 +1,26 @@
+.clearfix::after {
+    content: '';
+    display: block;
+    clear:both;}
+ body{margin:0;}
+h1{
+	margin-bottom: 50px;
+	color:white;
+	float: left;
+}
+
+.header {
+		background: #009900;
+
+}
+
+.header ul{ list-style: none;float:left;background: #006666;width:100%; color: white;}
+.main {background-color: red;}
+.left{width: 25%;float: left;background: #877777;}
+.left ul{list-style: none;padding-left: 10px;}
+.right{width: 20%;float:left;background: #077077}
+.midle{width: 55%;float: left;background: #811177}
+.apacia{width: 100%;float: left;background: #174447;color: red}
+p {
+	padding-left: 20px;
+}

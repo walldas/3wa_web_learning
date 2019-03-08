@@ -1,0 +1,28 @@
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+li{
+	display: inline-block;
+}
+nav a,p{
+	margin-right: 20px;
+	color:#eee;
+}
+.border{
+	border-bottom: solid 1px #eee;
+	position: absolute;
+	top:0;
+	width: 100%;
+	margin: 0 auto;
+}
+video{
+	width: 100%;
+}
+nav{
+	position: absolute;
+	top:0;
+	
+}

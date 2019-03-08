@@ -1,0 +1,118 @@
+.bnav{
+	background-image: url(img/intro-bg.jpg);
+	/*background-position: center center;*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	
+}
+.bnav ul li a{
+	color: white;
+	margin-top: 15px;
+}
+
+.bnav h4{
+	font-size: 25px;
+	color: white;
+}
+
+
+.ft{
+	text-align: center;
+	color:white;
+	padding:100px 0;
+}
+.ft2{
+	padding-top: 40px;
+}
+
+.welcome span{
+	color:green;
+	font-weight: bold;
+}
+.welcome img{
+	width: 100%;
+}
+.bg img{
+	border-radius: 50%;
+	border:solid 11px #51cc74;
+	width: 100%;
+}
+.welcome h2{
+	position: relative;
+	padding-bottom: 20px;
+}
+.welcome h2::after{
+	content: ' ';
+	position: absolute;
+	left:0;
+	bottom: 10px;
+	background-color: green;
+	width: 50px;
+	height: 3px;
+}
+.welcome{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.welcome button{
+	margin-top: 30px;
+}
+.bg{
+	background-color: green;
+}
+.bg h2{
+	position: relative;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+.bg h2::after{
+	content: ' ';
+	position: absolute;
+	left:540px;
+	bottom: 10px;
+	background-color: #bbb;
+	width: 50px;
+	height: 2px;
+}
+.gallery h2{
+	position: relative;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+.gallery h2::after{
+	content: ' ';
+	position: absolute;
+	left:540px;
+	bottom: 10px;
+	background-color: #0b0;
+	width: 50px;
+	height: 2px;
+}
+
+.gallery{
+	text-align: center;
+	padding:100px 0;
+}
+.gallery .btn:hover{
+	background-color: green;
+	color: white;
+}
+img{
+	width: 100%;
+}
+.slide{
+	position:relative;
+}
+.carousel-caption{
+	left: 0;
+	top:0;
+	left: 0;
+	right: 0;
+	background-color: rgba( 000, 255, 000, 0.5);
+	margin-bottom: -100px;
+	/*margin-top:-300px;*/
+	
+
+}
